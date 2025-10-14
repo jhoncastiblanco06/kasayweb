@@ -53,7 +53,7 @@
         <section id="inicio" class="text-white">
             <div class="relative w-full h-[650px] md:h-[550px] overflow-auto">
                 <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                    <source src="/kasayweb/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
+                    <source src="/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
                 </video>
                 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
@@ -258,31 +258,31 @@
                     Tecnologías Que Dominamos </h2>
                 <div class="max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-8 md:gap-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Postgresql.svg" alt="PostgreSQL Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Postgresql.svg" alt="PostgreSQL Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">PostgreSQL + PostGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Oracle.png" alt="Oracle Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Oracle.png" alt="Oracle Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Oracle Spatial</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Sql.webp" alt="SQL Server Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Sql.webp" alt="SQL Server Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">SQL Server Spatial</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Qgis.webp" alt="QGIS Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Qgis.webp" alt="QGIS Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">QGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Arcgis.webp" alt="ArcGIS Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Arcgis.webp" alt="ArcGIS Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">ArcGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Global_Mapper.jpg" alt="Mapper Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Global_Mapper.jpg" alt="Mapper Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Global Mapper</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/kasayweb/assets/images/gdbs/Autodesk.webp" alt="Autodesk Logo" class="h-20 mb-3">
+                        <img src="/assets/images/gdbs/Autodesk.webp" alt="Autodesk Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Autodesk</p>
                     </div>
                 </div>

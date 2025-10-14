@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="..\..\assets\css\style_login.css">
+    <link rel="stylesheet" href="/assets/css/style_login.css">
 
 </head>
 
@@ -30,7 +30,7 @@
                 class="bg-white p-8 md:p-10 rounded-xl shadow-2xl w-full  text-gray-800 border-b-4 border-sky-600 animate-fadeInSlideUp">
                 <!-- Encabezado del login -->
                 <div class="text-center mb-8">
-                    <img src="/kasayweb/assets/images/logo.jpg" alt="Kasay Ingeniería Logo"
+                    <img src="/assets/images/logo.jpg" alt="Kasay Ingeniería Logo"
                         class="mx-auto h-16 w-auto mb-4 opacity-70">
                 </div>
                 <!-- Formulario de inicio de sesión -->

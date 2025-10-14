@@ -8,8 +8,8 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style_inicio.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style_inicio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
@@ -33,7 +33,7 @@
 
     <!-- Video de fondo -->
     <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-      <source src="/kasayweb/assets/videos/kasay-soluciones.mp4" type="video/mp4">
+      <source src="/assets/videos/kasay-soluciones.mp4" type="video/mp4">
       Tu navegador no soporta video HTML5.
     </video>
 
@@ -220,7 +220,7 @@
             <div class="slide" style="left: 80px; ">
                 <!-- Diapositiva 1 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicio_gdbs.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_gdbs.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[50px] text-center w-full">
@@ -249,7 +249,7 @@
                 </div>
                 <!-- Diapositiva 2 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicio_360.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_360.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[60px] text-center w-full">
@@ -278,7 +278,7 @@
                 </div>
                 <!-- Diapositiva 3 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px]  h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/ortofoto.png');">
+                    style="background-image: url('/assets/images/ortofoto.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[60px] text-center w-full">
@@ -307,7 +307,7 @@
                 </div>
                 <!-- Diapositiva 4 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/geoks.png');">
+                    style="background-image: url('/assets/images/servicios/geoks.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -336,7 +336,7 @@
                 </div>
                 <!-- Diapositiva 5 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicios_cartos.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_cartos.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -365,7 +365,7 @@
                 </div>
                 <!-- Diapositiva 6 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicios_analisis.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_analisis.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -392,7 +392,7 @@
                 </div>
                 <!-- Diapositiva 7 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicios_operacion4.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_operacion4.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -420,7 +420,7 @@
                 </div>
                 <!-- Diapositiva 8 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicios_consultoria.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_consultoria.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -480,7 +480,7 @@
 
                 <!-- Diapositiva 10 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('/kasayweb/assets/images/servicios/servicio_gps.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_gps.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -543,7 +543,7 @@
                     <div class="relative h-64 overflow-hidden">
                         <video autoplay muted="muted" loop playsinline
                             class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                            <source src="/kasayweb/assets/videos/monteria.mp4" type="video/mp4">
+                            <source src="/assets/videos/monteria.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                         <div
@@ -569,7 +569,7 @@
                     <div class="relative h-64 overflow-hidden">
                         <video autoplay muted="muted" loop playsinline
                             class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                            <source src="/kasayweb/assets/videos/sesquile.mp4" type="video/mp4">
+                            <source src="/assets/videos/sesquile.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                         <!-- Contenedor de información del proyecto -->
@@ -627,7 +627,7 @@
                 <!-- Imagen del logo -->
                 <div class="lg:w-1/2 pr-16 pl-16 sm:pl-0">
                     <div class="relative rounded-3xl sm:left-8 overflow-hidden shadow-2xl">
-                        <img src="/kasayweb/assets/images/logoj.png" alt="Equipo Kasay Ingeniería"
+                        <img src="/assets/images/logoj.png" alt="Equipo Kasay Ingeniería"
                             class="w-full max-w-[56rem] mx-auto h-auto max-h-[72rem] object-contain">
 
                     </div>
@@ -711,39 +711,39 @@
             <div class="swiper-allies overflow-hidden">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_1.jpeg" alt="Logo Aliado 1"
+                        <img src="/assets/images/ali_1.jpeg" alt="Logo Aliado 1"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_2.png" alt="Logo Aliado 2"
+                        <img src="/assets/images/ali_2.png" alt="Logo Aliado 2"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_3.png" alt="Logo Aliado 3"
+                        <img src="/assets/images/ali_3.png" alt="Logo Aliado 3"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_4.png" alt="Logo Aliado 4"
+                        <img src="/assets/images/ali_4.png" alt="Logo Aliado 4"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_5.png" alt="Logo Aliado 5"
+                        <img src="/assets/images/ali_5.png" alt="Logo Aliado 5"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_6.png" alt="Logo Aliado 6"
+                        <img src="/assets/images/ali_6.png" alt="Logo Aliado 6"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_7.png" alt="Logo Aliado 7"
+                        <img src="/assets/images/ali_7.png" alt="Logo Aliado 7"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_8.png" alt="Logo Aliado 8"
+                        <img src="/assets/images/ali_8.png" alt="Logo Aliado 8"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="/kasayweb/assets/images/ali_9.jpg" alt="Logo Aliado 9"
+                        <img src="/assets/images/ali_9.jpg" alt="Logo Aliado 9"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                 </div>

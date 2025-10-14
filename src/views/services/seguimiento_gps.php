@@ -43,7 +43,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="/kasayweb//assets/videos/servicios/servicios_seguimiento_gps.mp4" type="video/mp4">
+            <source src="/assets/videos/servicios/servicios_seguimiento_gps.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -66,7 +66,7 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div data-aos="fade-right">
-                    <img src="/kasayweb/assets/images/paginas_servicios/gps_reports.png" alt="Dashboard de la plataforma de seguimiento GPS" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="/assets/images/paginas_servicios/gps_reports.png" alt="Dashboard de la plataforma de seguimiento GPS" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
                 <div data-aos="fade-left">
                     <h2 class="text-3xl md:text-4xl font-bold text-sky-900 mb-6">Convierta Datos de Localización en Inteligencia de Negocio</h2>
@@ -122,7 +122,7 @@
                     <p class="text-gray-600 mb-4">Visualice toda su flota en un mapa interactivo con actualizaciones en tiempo real. Cree perímetros virtuales (geo-cercas) y reciba notificaciones instantáneas cuando un vehículo entra o sale de un área designada, como una bodega, un proyecto o la zona de un cliente.</p>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="/kasayweb/assets/images/paginas_servicios/dashboard_seguimiento.png" alt="Mapa en vivo con geo-cercas" class="rounded-lg shadow-xl">
+                    <img src="/assets/images/paginas_servicios/dashboard_seguimiento.png" alt="Mapa en vivo con geo-cercas" class="rounded-lg shadow-xl">
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -131,7 +131,7 @@
                     <p class="text-gray-600 mb-4">Genere reportes detallados sobre kilometraje, tiempos de parada, excesos de velocidad y consumo de combustible. Configure alertas personalizadas para eventos críticos y recíbalas por email o notificación push, permitiéndole actuar de inmediato.</p>
                 </div>
                 <div class="md:order-1" data-aos="fade-right">
-                    <img src="/kasayweb/assets/images/paginas_servicios/dashboard_gps.png" alt="Dashboard de reportes y analíticas" class="rounded-lg shadow-xl">
+                    <img src="/assets/images/paginas_servicios/dashboard_gps.png" alt="Dashboard de reportes y analíticas" class="rounded-lg shadow-xl">
                 </div>
             </div>
         </div>

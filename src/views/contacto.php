@@ -26,7 +26,7 @@
             <section id="inicio" class="text-white pt-3 pb-0 md:pt-16 md:pb-1"> <!-- Sección de inicio con video de fondo -->
                 <div class="relative w-full h-[390px] overflow-hidden"> <!-- Contenedor relativo para el video -->
                     <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0"> <!-- Video de fondo -->
-                    <source src="/kasayweb/assets/videos/kasay-contacto.mp4" type="video/mp4"> <!-- Fuente del video -->
+                    <source src="/assets/videos/kasay-contacto.mp4" type="video/mp4"> <!-- Fuente del video -->
                     Tu navegador no soporta video HTML5. <!-- Mensaje si el navegador no soporta video -->
                     </video>
                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div> <!-- Capa oscura encima del video -->

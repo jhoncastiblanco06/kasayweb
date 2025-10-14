@@ -33,7 +33,7 @@ var currentLayer = osm; // Define la capa activa
 
 // Icono de marcador personalizado
 var customIcon = L.icon({
-    iconUrl: '/kasayweb/assets/gif/icon_maps.webp', // URL del ícono personalizado
+    iconUrl: '/assets/gif/icon_maps.webp', // URL del ícono personalizado
     iconSize: [35, 55], // Tamaño del ícono
     iconAnchor: [20, 60], // Punto donde se ancla el ícono
     popupAnchor: [-3, -60] // Punto donde se ancla el popup

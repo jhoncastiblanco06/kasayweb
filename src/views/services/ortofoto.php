@@ -43,7 +43,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="/kasayweb/assets/videos/servicios/servicios_ortofoto.mp4" type="video/mp4">
+            <source src="/assets/videos/servicios/servicios_ortofoto.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -123,7 +123,7 @@
                  <div class="bg-black rounded-lg overflow-hidden">
                     <iframe 
                         class="w-full h-[650px]" 
-                        src="/kasayweb/assets/tiles/visu_ortofoto.php"
+                        src="/assets/tiles/visu_ortofoto.php"
                         title="Visor Cartográfico Interactivo de Kasay Ingeniería"
                         frameborder="0">
                     </iframe>

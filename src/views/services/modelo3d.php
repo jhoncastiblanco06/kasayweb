@@ -44,7 +44,7 @@
 
     <section id="inicio" class="relative w-full h-screen text-white">
         <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" 
-             style="background-image: url('/kasayweb/assets/images/ortofoto.png');">
+             style="background-image: url('/assets/images/ortofoto.png');">
         </div>
         
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-10"></div>
@@ -76,7 +76,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="/kasayweb/assets/images/paginas_servicios/referencia_modelo3d.png" alt="Concepto de un Gemelo Digital conectando el mundo físico y virtual" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="/assets/images/paginas_servicios/referencia_modelo3d.png" alt="Concepto de un Gemelo Digital conectando el mundo físico y virtual" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
             </div>
         </div>
