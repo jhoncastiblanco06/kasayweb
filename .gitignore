@@ -1,3 +1,5 @@
-.gitignore
-    kasayweb/src/functional/procesar_contacto.php
-    node_modules
+# dependencias
+node_modules/
+
+# archivo con API
+src/functional/procesar_contacto.php
