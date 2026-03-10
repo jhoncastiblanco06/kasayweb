@@ -1,1 +1,3 @@
-
+.gitignore
+    /kasayweb/src/functional/procesar_contacto.php
+    /node_modules
