@@ -31,24 +31,28 @@
                     <ul class="space-y-2 text-sm">
                         <li><a href="/index.php" class="hover:text-blue-400 transition duration-300">Inicio</a></li>
                         <li><a href="/src/views/nosotros.php" class="hover:text-blue-400 transition duration-300">Nosotros</a></li>
+                        <li><a href="/src/views/blog-index.php" class="hover:text-blue-400 transition duration-300">Blog</a></li>
                         <li><a href="/src/views/contacto.php" class="hover:text-blue-400 transition duration-300">Contacto</a></li>
+                        
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Síguenos</h4>
                     <div class="flex space-x-4">
                         <a href="https://www.facebook.com/p/Kasay-Ingeniería-SAS-61552725575542/" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
-                        <a href="#" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
                         <a href="https://maps.app.goo.gl/UDNfZEkGSy4sbgpz6" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fa-solid fa-map-pin"></i></a>
-                        <a href="#" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://www.instagram.com" class="text-gray-300 hover:text-blue-400 transition duration-300" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
                     </div>
                 </div>
             </div>
             <div class="border-t border-gray-400 pt-8 text-center text-sm">
-                <p>&copy; 2025 Kasay Ingenieria SAS. &nbsp; <i class="fa-solid fa-font-awesome"></i>
+                <p>&copy; 2026 Kasay Ingenieria SAS. &nbsp; <i class="fa-solid fa-font-awesome"></i>
             </div>
         </div>
     </footer>
+                                     
+
 
 </body>
 </html>
