@@ -31,7 +31,7 @@
             const query = this.value.trim();
             
             if (query.length > 0) {
-                fetch(`/kasayweb/src/functional/buscar_api.php?q=${encodeURIComponent(query)}`)
+                fetch(`./src/functional/buscar_api.php?q=${encodeURIComponent(query)}`)
                     .then(response => response.json())
                     .then(data => {
                         searchSuggestions.innerHTML = '';

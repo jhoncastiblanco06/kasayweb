@@ -6,7 +6,7 @@
     <title>Visores SIG Web - Kasay Ingeniería</title>
     <base href="/kasayweb/">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,7 @@
                 </a>
             </div>
             <div class="md:w-1/2 flex justify-center md:justify-end">
-                <img src="/kasayweb/assets/images/sig_web_hero_illustration.png" alt="Ilustración de mapa interactivo y datos geoespaciales" class="w-full max-w-lg rounded-lg shadow-2xl animate-fade-in">
+                <img src="./assets/images/sig_web_hero_illustration.png" alt="Ilustración de mapa interactivo y datos geoespaciales" class="w-full max-w-lg rounded-lg shadow-2xl animate-fade-in">
             </div>
         </div>
     </section>
@@ -115,7 +115,7 @@
                     <div class="w-full h-64 bg-gray-200 rounded-md overflow-hidden mb-4">
                          <iframe 
                             class="w-full h-full object-cover image-reveal-on-scroll" 
-                            src="/kasayweb/src/functional/visor_digital_twin.php" 
+                            src="./src/functional/visor_digital_twin.php" 
                             title="Visor 3D Digital Twin"
                             frameborder="0">
                         </iframe>
@@ -133,13 +133,13 @@
                     <div class="w-full h-64 bg-gray-200 rounded-md overflow-hidden mb-4">
                         <iframe
                             class="w-full h-full object-cover image-reveal-on-scroll"
-                            src="/kasayweb/assets/tiles/visu_ortofoto.php"
+                            src="./assets/tiles/visu_ortofoto.php"
                             title="Mapa interactivo de Ortofotos"
                             frameborder="0">
                         </iframe>
                     </div>
                     <div class="text-center mt-auto">
-                        <a href="/kasayweb/assets/tiles/visu_ortofoto.php" class="inline-block bg-sky-500 text-white font-bold py-2 px-6 rounded-full hover:bg-sky-600 transition duration-300 text-md">Ver Demo</a>
+                        <a href="./assets/tiles/visu_ortofoto.php" class="inline-block bg-sky-500 text-white font-bold py-2 px-6 rounded-full hover:bg-sky-600 transition duration-300 text-md">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@
             <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                 Explore las posibilidades que ofrecen nuestros Visores SIG Web personalizados para su organización.
             </p>
-            <a href="/kasayweb/src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
+            <a href="./src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
                 Hablemos de su Proyecto
             </a>
         </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plataforma Catastral Inteligente (SaaS) - Kasay Ingeniería</title>
     <base href="/kasayweb/">
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="/kasayweb/assets/videos/saas_platform_hero.mp4" type="video/mp4">
+            <source src="./assets/videos/saas_platform_hero.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="/kasayweb/assets/images/saas_user_experience.jpg" alt="Usuario accediendo a la plataforma SaaS desde un portátil" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="./assets/images/saas_user_experience.jpg" alt="Usuario accediendo a la plataforma SaaS desde un portátil" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                     <p class="text-gray-600 mb-4">Explore, consulte y analice su información territorial sobre un potente motor de mapas. Realice búsquedas por dirección, matrícula o referencia catastral y visualice capas de información de forma dinámica.</p>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="/kasayweb/assets/images/saas_feature_geovisor.png" alt="Screenshot del visualizador geográfico de la plataforma" class="rounded-lg shadow-xl border border-gray-200">
+                    <img src="./assets/images/saas_feature_geovisor.png" alt="Screenshot del visualizador geográfico de la plataforma" class="rounded-lg shadow-xl border border-gray-200">
                 </div>
             </div>
             <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -95,7 +95,7 @@
                     <p class="text-gray-600 mb-4">Administre de forma centralizada todos los componentes de sus predios. Fichas detalladas para la información física, jurídica y económica, con historiales de cambios y gestión documental integrada.</p>
                 </div>
                 <div class="md:order-1" data-aos="fade-right">
-                    <img src="/kasayweb/assets/images/saas_feature_datamanagement.png" alt="Screenshot de la ficha de gestión de datos prediales" class="rounded-lg shadow-xl border border-gray-200">
+                    <img src="./assets/images/saas_feature_datamanagement.png" alt="Screenshot de la ficha de gestión de datos prediales" class="rounded-lg shadow-xl border border-gray-200">
                 </div>
             </div>
              <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -104,7 +104,7 @@
                     <p class="text-gray-600 mb-4">Genere reportes personalizados, certificados y estadísticas clave para la toma de decisiones. Visualice el estado de su catastro a través de dashboards intuitivos y fáciles de interpretar.</p>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="/kasayweb/assets/images/saas_feature_reports.png" alt="Screenshot del dashboard de analíticas y reportes" class="rounded-lg shadow-xl border border-gray-200">
+                    <img src="./assets/images/saas_feature_reports.png" alt="Screenshot del dashboard de analíticas y reportes" class="rounded-lg shadow-xl border border-gray-200">
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@
             <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto font-lora">
                 Descubra cómo nuestra plataforma SaaS puede revolucionar la administración de su territorio con una demostración personalizada.
             </p>
-            <a href="/kasayweb/src/views/contacto.php" class="bg-white text-sky-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
+            <a href="./src/views/contacto.php" class="bg-white text-sky-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
                 Solicitar una Demostración Guiada
             </a>
         </div>

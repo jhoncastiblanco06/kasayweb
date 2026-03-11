@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceso al Sistema - Kasay Ingeniería</title>
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/kasayweb/assets/css/style_login.css">
+    <link rel="stylesheet" href="./assets/css/style_login.css">
 
 </head>
 
@@ -30,11 +30,11 @@
                 class="bg-white p-8 md:p-10 rounded-xl shadow-2xl w-full  text-gray-800 border-b-4 border-sky-600 animate-fadeInSlideUp">
                 <!-- Encabezado del login -->
                 <div class="text-center mb-8">
-                    <img src="/kasayweb/assets/images/logo.jpg" alt="Kasay Ingeniería Logo"
+                    <img src="./assets/images/logo.jpg" alt="Kasay Ingeniería Logo"
                         class="mx-auto h-16 w-auto mb-4 opacity-70">
                 </div>
                 <!-- Formulario de inicio de sesión -->
-                <form action="/kasayweb/src/inc/process_login.php" method="POST" class="space-y-6">
+                <form action="./src/inc/process_login.php" method="POST" class="space-y-6">
                     <div>
                         <label for="username" class="block text-gray-700 text-sm font-medium mb-2">Usuario:</label>
                         <input type="text" id="username" name="username" required autocomplete="username"

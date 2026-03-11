@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bases de Datos Geográficas - Kasay Ingeniería</title>
     <base href="/kasayweb/">
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 </a>
             </div>
             <div class="md:w-1/2 flex justify-center md:justify-end">
-                <img src="/kasayweb/assets/images/bdg_hero_illustration.png" alt="Ilustración de base de datos geográfica" class="w-full max-w-lg rounded-lg shadow-2xl animate-fade-in">
+                <img src="./assets/images/bdg_hero_illustration.png" alt="Ilustración de base de datos geográfica" class="w-full max-w-lg rounded-lg shadow-2xl animate-fade-in">
             </div>
         </div>
     </section>
@@ -223,7 +223,7 @@
             <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                 Hable con nuestros expertos para diseñar una base de datos geográfica que impulse sus proyectos.
             </p>
-            <a href="/kasayweb/src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
+            <a href="./src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
                 Contáctenos Ahora
             </a>
         </div>

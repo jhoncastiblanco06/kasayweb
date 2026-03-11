@@ -33,7 +33,7 @@ var currentLayer = osm; // Define la capa activa
 
 // Icono de marcador personalizado
 var customIcon = L.icon({
-    iconUrl: '/kasayweb/assets/gif/icon_maps.webp', // URL del ícono personalizado
+    iconUrl: './assets/gif/icon_maps.webp', // URL del ícono personalizado
     iconSize: [35, 55], // Tamaño del ícono
     iconAnchor: [20, 60], // Punto donde se ancla el ícono
     popupAnchor: [-3, -60] // Punto donde se ancla el popup
@@ -84,7 +84,7 @@ var toggleButton = L.control({
 toggleButton.onAdd = function (map) { // Añade el botón al mapa
     var div = L.DomUtil.create('div', 'leaflet-bar');
     div.style.cursor = 'pointer';
-    div.style.backgroundImage = 'url("/kasayweb/assets/images/satelital.png")'; // Icono inicial para OSM
+    div.style.backgroundImage = 'url("./assets/images/satelital.png")'; // Icono inicial para OSM
     div.style.backgroundSize = 'cover';
     div.style.width = '45px';
     div.style.height = '45px';
@@ -111,14 +111,14 @@ toggleButton.onAdd = function (map) { // Añade el botón al mapa
             currentLayer = esriSat;
 
             // Cambiar la imagen del icono a algo relacionado con el satelital
-            div.style.backgroundImage = 'url("/kasayweb/assets/images/osm.png")'; // Imagen para la capa de OSM
+            div.style.backgroundImage = 'url("./assets/images/osm.png")'; // Imagen para la capa de OSM
         } else {
             map.removeLayer(esriSat);
             map.addLayer(osm);
             currentLayer = osm;
 
             // Cambiar la imagen del icono a algo relacionado con el satelital
-            div.style.backgroundImage = 'url("/kasayweb/assets/images/satelital.png")'; // Imagen para la capa satelital
+            div.style.backgroundImage = 'url("./assets/images/satelital.png")'; // Imagen para la capa satelital
             }
         };
     return div;

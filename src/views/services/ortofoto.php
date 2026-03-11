@@ -7,7 +7,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="/kasayweb/assets/videos/servicios/servicios_ortofoto.mp4" type="video/mp4">
+            <source src="./assets/videos/servicios/servicios_ortofoto.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -123,7 +123,7 @@
                  <div class="bg-black rounded-lg overflow-hidden">
                     <iframe 
                         class="w-full h-[650px]" 
-                        src="/kasayweb/assets/tiles/visu_ortofoto.php"
+                        src="./assets/tiles/visu_ortofoto.php"
                         title="Visor Cartográfico Interactivo de Kasay Ingeniería"
                         frameborder="0">
                     </iframe>

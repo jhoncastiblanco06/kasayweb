@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cartografía Digital - Kasay Ingeniería</title>    
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@
         <section id="inicio" class="text-white">
             <div class="relative w-full h-[500px] lg:h-[550px] overflow-auto">
                 <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                    <source src="/kasayweb/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
+                    <source src="./assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
                 </video>
                 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>

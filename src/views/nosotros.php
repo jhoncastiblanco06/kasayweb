@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes</title>
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/kasayweb/assets/css/style_nosotros.css">
+    <link rel="stylesheet" href="./assets/css/style_nosotros.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
@@ -31,7 +31,7 @@
         <div class="relative w-full h-[30vh] md:h-[50vh] overflow-hidden">
             <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0"
                 aria-hidden="true">
-                <source src="/kasayweb/assets/videos/kasay_nosotros.mp4" type="video/mp4">
+                <source src="./assets/videos/kasay_nosotros.mp4" type="video/mp4">
                 Tu navegador no soporta video HTML5.
             </video>
 
@@ -90,7 +90,7 @@
                 </div>
                 <!-- Imagen del logo -->
                 <div class="flex justify-center  md:justify-start sm:pt-8 pt-0 md:pt-2">
-                    <img src="/kasayweb/assets/images/logotrans.png" alt="Logotipo de Kasay Ingeniería"
+                    <img src="./assets/images/logotrans.png" alt="Logotipo de Kasay Ingeniería"
                         class="rounded-lg sm:pt-8 pt-0 w-[200px] sm:w-[300px] md:w-[500px] h-[120px] sm:h-[120px] md:h-[230px] object-cover">
                 </div>
             </div>

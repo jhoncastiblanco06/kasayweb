@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Kasay Ingeniería</title>
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -59,7 +59,7 @@
                                     La APB constituye el líder español en número de escalas, con un volumen anual de más de 50,000, lo que la ha llevado también a posicionarse en el segundo puesto del ranking europeo. Además, presenta una de las cifras de tráfico de pasajeros más alta...
                                 </p>
                                 <div class="mt-auto">
-                                    <a href="/kasayweb/src/views/blogs/blog-post.php" class="inline-block text-cyan-600 font-bold hover:text-cyan-800 transition-colors border-b border-transparent hover:border-cyan-800 pb-1">Ver más <i class="fa-solid fa-angle-right ml-1"></i></a>
+                                    <a href="./src/views/blogs/blog-post.php" class="inline-block text-cyan-600 font-bold hover:text-cyan-800 transition-colors border-b border-transparent hover:border-cyan-800 pb-1">Ver más <i class="fa-solid fa-angle-right ml-1"></i></a>
                                 </div>
                             </div>
                         </article>

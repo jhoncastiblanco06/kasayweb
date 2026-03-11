@@ -8,7 +8,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
  
 </head>
@@ -22,17 +22,17 @@
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div >
                     <div class="bg-white p-4 rounded-lg shadow-lg inline-block text-center">
-                        <a href="/kasayweb/index.php"><img src="/kasayweb/assets/images/logo.jpg" alt="logo" class="w-32 h-auto mx-auto mb-2"></a>
+                        <a href="./index.php"><img src="./assets/images/logo.jpg" alt="logo" class="w-32 h-auto mx-auto mb-2"></a>
                     </div>
                     <p class="text-1xl pt-4 font-bold">Creando el futuro digital, un proyecto a la vez.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Enlaces Rápidos</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/kasayweb/index.php" class="hover:text-blue-400 transition duration-300">Inicio</a></li>
-                        <li><a href="/kasayweb/src/views/nosotros.php" class="hover:text-blue-400 transition duration-300">Nosotros</a></li>
-                        <li><a href="/kasayweb/src/views/blog-index.php" class="hover:text-blue-400 transition duration-300">Blog</a></li>
-                        <li><a href="/kasayweb/src/views/contacto.php" class="hover:text-blue-400 transition duration-300">Contacto</a></li>
+                        <li><a href="./index.php" class="hover:text-blue-400 transition duration-300">Inicio</a></li>
+                        <li><a href="./src/views/nosotros.php" class="hover:text-blue-400 transition duration-300">Nosotros</a></li>
+                        <li><a href="./src/views/blog-index.php" class="hover:text-blue-400 transition duration-300">Blog</a></li>
+                        <li><a href="./src/views/contacto.php" class="hover:text-blue-400 transition duration-300">Contacto</a></li>
                         
                     </ul>
                 </div>
