@@ -1,37 +1,55 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operación Catastral Integral y de Precisión - Kasay Ingeniería</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
-        html { scroll-behavior: smooth; }
-        .font-lora { font-family: 'Lora', serif; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+
         .section-title::after {
-            content: ''; display: block; width: 80px; height: 3px;
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
             margin: 12px auto 0;
             background: linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 153, 177));
             border-radius: 2px;
         }
-        .timeline-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .timeline-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+
+        .timeline-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
     </style>
 </head>
+
 <body class="bg-white text-gray-800">
 
     <?php include_once '../../inc/navbar.php'; ?>
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="./assets/videos/servicios/servicios_opcatastral.mp4" type="video/mp4">
+            <source src="/assets/videos/servicios/servicios_opcatastral.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -85,7 +103,7 @@
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
                 <div data-aos="fade-right">
-                    <img src="./assets/images/paginas_servicios/servicio_opcatastral.jpg" alt="Equipo técnico de Kasay realizando levantamiento catastral en campo" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="/assets/images/paginas_servicios/servicio_opcatastral.jpg" alt="Equipo técnico de Kasay realizando levantamiento catastral en campo" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
                 <div data-aos="fade-left">
                     <h2 class="text-3xl md:text-4xl font-bold text-sky-900 mb-6">Sinergia en el Terreno: Talento y Tecnología</h2>
@@ -93,15 +111,21 @@
                         El éxito de una operación catastral reside en la perfecta combinación de profesionales expertos y herramientas de vanguardia. Nuestro enfoque integra ambos para garantizar la máxima calidad y eficiencia.
                     </p>
                     <ul class="space-y-4">
-                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i><div><strong class="text-gray-800">Equipos Multidisciplinarios:</strong> Topógrafos, abogados y especialistas catastrales trabajando de forma coordinada.</div></li>
-                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i><div><strong class="text-gray-800">GPS de Alta Precisión:</strong> Equipos geodésicos para la captura de linderos y puntos con exactitud centimétrica.</div></li>
-                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i><div><strong class="text-gray-800">Aplicaciones Móviles de Captura:</strong> Formularios digitales y validación de datos en tiempo real para minimizar errores.</div></li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i>
+                            <div><strong class="text-gray-800">Equipos Multidisciplinarios:</strong> Topógrafos, abogados y especialistas catastrales trabajando de forma coordinada.</div>
+                        </li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i>
+                            <div><strong class="text-gray-800">GPS de Alta Precisión:</strong> Equipos geodésicos para la captura de linderos y puntos con exactitud centimétrica.</div>
+                        </li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-sky-500 mt-1 mr-3"></i>
+                            <div><strong class="text-gray-800">Aplicaciones Móviles de Captura:</strong> Formularios digitales y validación de datos en tiempo real para minimizar errores.</div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="metodologia" class="py-20 bg-white [scroll-margin-top:50px]">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-sky-900 section-title" data-aos="fade-up">
@@ -109,7 +133,7 @@
             </h2>
             <div class="relative max-w-4xl mx-auto">
                 <div class="absolute left-1/2 w-0.5 h-full bg-sky-200 transform -translate-x-1/2 hidden md:block"></div>
-                
+
                 <div class="mb-12 flex flex-wrap justify-center md:flex-nowrap md:justify-between items-center w-full" data-aos="fade-right">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1 md:order-none">1</div>
@@ -118,7 +142,7 @@
                         <p class="text-gray-600 text-sm">Análisis de la zona, socialización con la comunidad y despliegue logístico del proyecto.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-12 flex flex-wrap justify-center md:flex-nowrap md:justify-between items-center w-full md:flex-row-reverse" data-aos="fade-left">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1">2</div>
@@ -136,7 +160,7 @@
                         <p class="text-gray-600 text-sm">La información recolectada es procesada y validada rigurosamente por nuestro equipo de oficina.</p>
                     </div>
                 </div>
-                
+
                 <div class="flex flex-wrap justify-center md:flex-nowrap md:justify-between items-center w-full md:flex-row-reverse" data-aos="fade-left">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1">4</div>
@@ -155,8 +179,9 @@
             once: false, // <-- Lo dejamos en 'false' como pediste
         });
     </script>
-    
+
     <?php include_once '../../inc/footer.php'; ?>
 
 </body>
+
 </html>

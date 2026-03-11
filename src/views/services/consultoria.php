@@ -1,32 +1,49 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultoría Estratégica para Gestores Catastrales - Kasay Ingeniería</title>
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+
     <style>
-        html { scroll-behavior: smooth; }
-        .font-lora { font-family: 'Lora', serif; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+
         .section-title::after {
-            content: ''; display: block; width: 80px; height: 3px;
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
             margin: 12px auto 0;
             background: linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 153, 177));
             border-radius: 2px;
         }
-        .timeline-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .timeline-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+
+        .timeline-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
     </style>
 </head>
 
@@ -36,7 +53,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="./assets/videos/servicios/servicios_consultoria.mp4" type="video/mp4">
+            <source src="/assets/videos/servicios/servicios_consultoria.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -59,7 +76,7 @@
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
                 <div class="md:order-2" data-aos="fade-left">
-                    <img src="./assets/images/paginas_servicios/servicio_consultoria.png" alt="Sesión de consultoría estratégica con equipo de Kasay" class="rounded-lg shadow-2xl w-full h-auto" style="max-height: 500px; object-fit: cover;">
+                    <img src="/assets/images/paginas_servicios/servicio_consultoria.png" alt="Sesión de consultoría estratégica con equipo de Kasay" class="rounded-lg shadow-2xl w-full h-auto" style="max-height: 500px; object-fit: cover;">
                 </div>
                 <div class="md:order-1 " data-aos="fade-right">
                     <h2 class="text-3xl md:text-4xl font-bold sm:px-0 px-4 text-sky-900 mb-6">Su Aliado en la Modernización Territorial</h2>
@@ -104,7 +121,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="hoja-de-ruta" class="py-20 bg-white [scroll-margin-top:50px]">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-sky-900 section-title" data-aos="fade-up">
@@ -112,7 +129,7 @@
             </h2>
             <div class="relative max-w-4xl mx-auto">
                 <div class="absolute left-1/2 w-0.5 h-full bg-sky-200 transform -translate-x-1/2 hidden md:block"></div>
-                
+
                 <div class="mb-12 flex flex-wrap justify-center md:justify-between items-center w-full" data-aos="fade-right">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1 md:order-2">1</div>
@@ -121,7 +138,7 @@
                         <p class="text-gray-600 text-sm">Evaluamos las capacidades actuales del municipio y determinamos la viabilidad técnica, jurídica y financiera del proyecto.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-12 flex flex-wrap justify-center md:justify-between items-center w-full md:flex-row-reverse" data-aos="fade-left">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1">2</div>
@@ -139,7 +156,7 @@
                         <p class="text-gray-600 text-sm">Apoyamos en la ejecución del plan y realizamos la transferencia de conocimiento al equipo municipal para asegurar su autonomía.</p>
                     </div>
                 </div>
-                
+
                 <div class="flex flex-wrap justify-center md:justify-between items-center w-full md:flex-row-reverse" data-aos="fade-left">
                     <div class="w-2/5 hidden md:block"></div>
                     <div class="z-10 bg-sky-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg order-1">4</div>
@@ -158,8 +175,9 @@
             once: false,
         });
     </script>
-    
+
     <?php include_once '../../inc/footer.php'; ?>
 
 </body>
+
 </html>

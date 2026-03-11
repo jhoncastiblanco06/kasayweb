@@ -1,39 +1,52 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemelos Digitales y Modelado 3D de Precisión - Kasay Ingeniería</title>
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+
     <style>
-        html { scroll-behavior: smooth; }
-        .font-lora { font-family: 'Lora', serif; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+
         .section-title::after {
-            content: ''; display: block; width: 80px; height: 3px;
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
             margin: 12px auto 0;
             background: linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 153, 177));
             border-radius: 2px;
         }
+
         .feature-card-3d {
             background-color: white;
-            border: 1px solid #e5e7eb; /* border-gray-200 */
+            border: 1px solid #e5e7eb;
+            /* border-gray-200 */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
         .feature-card-3d:hover {
             transform: scale(1.03);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -43,10 +56,10 @@
     <?php include_once '../../inc/navbar.php'; ?>
 
     <section id="inicio" class="relative w-full h-screen text-white">
-        <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" 
-             style="background-image: url('./assets/images/ortofoto.png');">
+        <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+            style="background-image: url('/assets/images/ortofoto.png');">
         </div>
-        
+
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-10"></div>
         <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-6">
             <div data-aos="fade-down">
@@ -76,7 +89,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left">
-                    <img src="./assets/images/paginas_servicios/referencia_modelo3d.png" alt="Concepto de un Gemelo Digital conectando el mundo físico y virtual" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="/assets/images/paginas_servicios/referencia_modelo3d.png" alt="Concepto de un Gemelo Digital conectando el mundo físico y virtual" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
             </div>
         </div>
@@ -106,7 +119,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="visor" class="py-8 bg-white [scroll-margin-top:80px]">
         <div class="container mx-auto px-6">
             <div class="text-center mb-8" data-aos="fade-up">
@@ -116,26 +129,26 @@
 
 
             <section id="modelogeokas" class="py-8 bg-white [scroll-margin-top:80px]">
-        <div class="container mx-auto px-0">
-            <div class="w-full max-w-7xl mx-auto p-4 bg-slate-100 rounded-xl shadow-2xl border border-slate-200" data-aos="zoom-in-up">
-                 <div class="aspect-w-16 aspect-h-9 bg-black rounded-lg overflow-hidden">
-                    <iframe 
-                        class="w-full h-[650px]" 
-                        src="https://3d-villavo-col.falconprecision.co/" 
-                        title="Visor 360 Inmersivo de Kasay Ingeniería"
-                        frameborder="0"
-                        allowfullscreen>
-                    </iframe>
+                <div class="container mx-auto px-0">
+                    <div class="w-full max-w-7xl mx-auto p-4 bg-slate-100 rounded-xl shadow-2xl border border-slate-200" data-aos="zoom-in-up">
+                        <div class="aspect-w-16 aspect-h-9 bg-black rounded-lg overflow-hidden">
+                            <iframe
+                                class="w-full h-[650px]"
+                                src="https://3d-villavo-col.falconprecision.co/"
+                                title="Visor 360 Inmersivo de Kasay Ingeniería"
+                                frameborder="0"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
             <!--
             <div class="w-full max-w-7xl mx-auto p-4 bg-slate-100 rounded-xl shadow-2xl border border-slate-200" data-aos="zoom-in-up">
                  <div class="bg-black rounded-lg overflow-hidden">
                     <iframe 
                         class="w-full h-[700px]" 
-                        src="./src/functional/visor_digital_twin.php" 
+                        src="/src/functional/visor_digital_twin.php" 
                         title="Visor 3D Interactivo de Gemelo Digital - Kasay Ingeniería"
                         frameborder="0"
                         loading="lazy">
@@ -152,8 +165,9 @@
             once: false,
         });
     </script>
-    
+
     <?php include_once '../../inc/footer.php'; ?>
 
 </body>
+
 </html>

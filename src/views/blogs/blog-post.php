@@ -38,7 +38,7 @@ $post = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $post['titulo'] ?> - Kasay Ingeniería</title>
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -53,9 +53,9 @@ $post = [
     <div class="container mx-auto px-4 lg:px-16 py-8">
 
         <nav class="text-sm text-gray-500 mb-8 flex items-center space-x-2">
-            <a href="./index.php" class="hover:text-cyan-600 transition"><i class="fa-solid fa-house"></i> Inicio</a>
+            <a href="/index.php" class="hover:text-cyan-600 transition"><i class="fa-solid fa-house"></i> Inicio</a>
             <span><i class="fa-solid fa-angle-right text-xs"></i></span>
-            <a href="./src/views/blog-index.php" class="hover:text-cyan-600 transition">Blog</a>
+            <a href="/src/views/blog-index.php" class="hover:text-cyan-600 transition">Blog</a>
             <span><i class="fa-solid fa-angle-right text-xs"></i></span>
             <span class="text-gray-800 font-medium truncate w-48 md:w-auto"><?= $post['categoria'] ?></span>
         </nav>

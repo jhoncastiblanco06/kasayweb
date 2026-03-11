@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasay Ingeneria</title>
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/style_inicio.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style_inicio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
@@ -220,7 +220,7 @@
             <div class="slide" style="left: 80px; ">
                 <!-- Diapositiva 1 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicio_gdbs.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_gdbs.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[50px] text-center w-full">
@@ -240,7 +240,7 @@
                             geográfica.
                         </div>
 
-                        <a href="./src/views/services/gdbs.php"
+                        <a href="/src/views/services/gdbs.php"
                             class="px-5 py-2.5 bg-sky-400 text-white font-bold hover:bg-sky-300 hover:text-gray-700 rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -249,7 +249,7 @@
                 </div>
                 <!-- Diapositiva 2 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicio_360.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_360.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[60px] text-center w-full">
@@ -269,7 +269,7 @@
                             inmersiva para inspección de sitios o planificación de proyectos.
                         </div>
 
-                        <a href="./src/views/services/visor360.php"
+                        <a href="/src/views/services/visor360.php"
                             class="px-5 py-2.5 bg-sky-400 text-white font-bold hover:bg-sky-300 hover:text-gray-700 rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -278,7 +278,7 @@
                 </div>
                 <!-- Diapositiva 3 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px]  h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/ortofoto.png');">
+                    style="background-image: url('/assets/images/ortofoto.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold text-2xl cursor-pointer text-white/80 inline-block pt-[60px] text-center w-full">
@@ -298,7 +298,7 @@
                             territorio en 2D.
                         </div>
 
-                        <a href="./src/views/services/ortofoto.php"
+                        <a href="/src/views/services/ortofoto.php"
                             class="px-5 font-bold py-2.5 hover:bg-white bg-blue-400 text-white hover:text-black rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -307,7 +307,7 @@
                 </div>
                 <!-- Diapositiva 4 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/geoks.png');">
+                    style="background-image: url('/assets/images/servicios/geoks.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -327,7 +327,7 @@
                             para urbanismo, arquitectura e ingeniería.
                         </div>
 
-                        <a href="./src/views/services/modelo3d.php"
+                        <a href="/src/views/services/modelo3d.php"
                             class="px-5 py-2.5 hover:bg-white font-bold bg-blue-400 text-white hover:text-black rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -336,7 +336,7 @@
                 </div>
                 <!-- Diapositiva 5 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicios_cartos.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_cartos.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -356,7 +356,7 @@
                             territorio.
                         </div>
 
-                        <a href="./src/views/services/carto_digital.php"
+                        <a href="/src/views/services/carto_digital.php"
                             class="px-5 py-2.5 hover:bg-white font-bold bg-blue-400 text-white hover:text-black rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -365,7 +365,7 @@
                 </div>
                 <!-- Diapositiva 6 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicios_analisis.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_analisis.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title font-bold cursor-pointer text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -383,7 +383,7 @@
                         <div class="des mt-2.5 text-base sm:text-sm md:text-lg lg:text-xl pt-6 max-w-[700px] mb-5">
                             Análisis espacial y estudios territoriales para la toma de decisiones estratégicas.
                         </div>
-                        <a href="./src/views/services/analisis_territorial.php"
+                        <a href="/src/views/services/analisis_territorial.php"
                             class="px-5 py-2.5 bg-sky-400 font-bold hover:bg-sky-300 hover:text-gray-700 text-white  rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -392,7 +392,7 @@
                 </div>
                 <!-- Diapositiva 7 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicios_operacion4.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_operacion4.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -411,7 +411,7 @@
                             Captura Integral de Datos Físicos, Jurídicos y Económicos en el Terreno.
                         </div>
 
-                        <a href="./src/views/services/op_catastral.php"
+                        <a href="/src/views/services/op_catastral.php"
                             class="px-5 py-2.5 bg-sky-400 font-bold hover:bg-sky-300 hover:text-gray-700 text-white  rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -420,7 +420,7 @@
                 </div>
                 <!-- Diapositiva 8 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicios_consultoria.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_consultoria.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -440,7 +440,7 @@
                             servicio público.
                         </div>
 
-                        <a href="./src/views/services/consultoria.php"
+                        <a href="/src/views/services/consultoria.php"
                             class="px-5 py-2.5 bg-sky-100 font-bold hover:bg-sky-400 hover:text-gray-700 text-black  rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -450,7 +450,7 @@
                 <!-- Diapositiva 9 -->
                 <!--
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicios_saas.png');">
+                    style="background-image: url('/assets/images/servicios/servicios_saas.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                 <!-- <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[160px] text-center w-full">
@@ -469,7 +469,7 @@
                             Sistema de Gestión Catastral bajo la modalidad de Software como Servicio (SaaS).
                         </div>
 
-                        <a href="./src/views/services/gestion_saas.php"
+                        <a href="/src/views/services/gestion_saas.php"
                             class="px-5 py-2.5 bg-sky-400 font-bold hover:bg-sky-300 hover:text-gray-700 text-white  rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -480,7 +480,7 @@
 
                 <!-- Diapositiva 10 -->
                 <div class="item absolute top-1/2 -translate-y-1/2 w-[200px] h-[300px] rounded-2xl bg-cover bg-center inline-block transition-all duration-500"
-                    style="background-image: url('./assets/images/servicios/servicio_gps.png');">
+                    style="background-image: url('/assets/images/servicios/servicio_gps.png');">
                     <!-- Título de la diapositiva en el cuadro pequeño -->
                     <span
                         class="thumbnail-title cursor-pointer font-bold text-2xl text-white/80 inline-block pt-[60px] text-center w-full">
@@ -499,7 +499,7 @@
                             Implementación de sistemas de seguimiento vehicular y de activos con tecnología GPS.
                         </div>
 
-                        <a href="./src/views/services/seguimiento_gps.php"
+                        <a href="/src/views/services/seguimiento_gps.php"
                             class="px-5 py-2.5 bg-sky-400 font-bold hover:bg-sky-100 hover:text-gray-700 text-white  rounded cursor-pointer inline-block">
                             Más información →
                         </a>
@@ -543,7 +543,7 @@
                     <div class="relative h-64 overflow-hidden">
                         <video autoplay muted="muted" loop playsinline
                             class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                            <source src="./assets/videos/monteria.mp4" type="video/mp4">
+                            <source src="/assets/videos/monteria.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                         <div
@@ -569,7 +569,7 @@
                     <div class="relative h-64 overflow-hidden">
                         <video autoplay muted="muted" loop playsinline
                             class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                            <source src="./assets/videos/sesquile.mp4" type="video/mp4">
+                            <source src="/assets/videos/sesquile.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                         <!-- Contenedor de información del proyecto -->
@@ -627,7 +627,7 @@
                 <!-- Imagen del logo -->
                 <div class="lg:w-1/2 pr-16 pl-16 sm:pl-0">
                     <div class="relative rounded-3xl sm:left-8 overflow-hidden shadow-2xl">
-                        <img src="./assets/images/logoj.png" alt="Equipo Kasay Ingeniería"
+                        <img src="/assets/images/logoj.png" alt="Equipo Kasay Ingeniería"
                             class="w-full max-w-[56rem] mx-auto h-auto max-h-[72rem] object-contain">
 
                     </div>
@@ -685,7 +685,7 @@
                     </div>
                     <br />
 
-                    <a href="./src/views/contacto.php"
+                    <a href="/src/views/contacto.php"
                         class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 transition-all duration-300">
                         Contactar al equipo
                         <i class="fas fa-arrow-right ml-2"></i>
@@ -711,39 +711,39 @@
             <div class="swiper-allies overflow-hidden">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_1.jpeg" alt="Logo Aliado 1"
+                        <img src="/assets/images/ali_1.jpeg" alt="Logo Aliado 1"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_2.png" alt="Logo Aliado 2"
+                        <img src="/assets/images/ali_2.png" alt="Logo Aliado 2"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_3.png" alt="Logo Aliado 3"
+                        <img src="/assets/images/ali_3.png" alt="Logo Aliado 3"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_4.png" alt="Logo Aliado 4"
+                        <img src="/assets/images/ali_4.png" alt="Logo Aliado 4"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_5.png" alt="Logo Aliado 5"
+                        <img src="/assets/images/ali_5.png" alt="Logo Aliado 5"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_6.png" alt="Logo Aliado 6"
+                        <img src="/assets/images/ali_6.png" alt="Logo Aliado 6"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_7.png" alt="Logo Aliado 7"
+                        <img src="/assets/images/ali_7.png" alt="Logo Aliado 7"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_8.png" alt="Logo Aliado 8"
+                        <img src="/assets/images/ali_8.png" alt="Logo Aliado 8"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                     <div class="swiper-slide flex justify-center items-center p-4">
-                        <img src="./assets/images/ali_9.jpg" alt="Logo Aliado 9"
+                        <img src="/assets/images/ali_9.jpg" alt="Logo Aliado 9"
                             class="max-h-32 w-auto filter grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
                     </div>
                 </div>
@@ -756,7 +756,7 @@
     include_once 'src/inc/footer.php';
     ?>
     <!-- Scripts -->
-    <script src="./assets/js/scripts_inicio.js"></script>
+    <script src="/assets/js/scripts_inicio.js"></script>
 
 </body>
 

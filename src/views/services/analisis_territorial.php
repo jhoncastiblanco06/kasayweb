@@ -1,27 +1,37 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análisis Geoespacial Estratégico - Kasay Ingeniería</title>
     <base href="/kasayweb/">
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+
     <style>
-        html { scroll-behavior: smooth; }
-        .font-lora { font-family: 'Lora', serif; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+
         .section-title::after {
-            content: ''; display: block; width: 80px; height: 3px;
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
             margin: 12px auto 0;
             background: linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 153, 177));
             border-radius: 2px;
@@ -36,7 +46,7 @@
     <section id="inicio" class="text-white">
         <div class="relative w-full h-screen">
             <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                <source src="./assets/videos/servicios/servicios_analisis_territorial.mp4" type="video/mp4">
+                <source src="/assets/videos/servicios/servicios_analisis_territorial.mp4" type="video/mp4">
                 Tu navegador no soporta video HTML5.
             </video>
             <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
@@ -98,90 +108,90 @@
             </div>
         </div>
     </section>
-    
+
     <section id="capacidades" class="py-20 bg-white [scroll-margin-top:80px]">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-sky-900 section-title" data-aos="fade-up">
-            Capacidades Analíticas Avanzadas
-        </h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto" data-aos="fade-up">
-            
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-sitemap text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis Multicriterio</h3>
-                        <p class="text-gray-600 leading-relaxed">Evaluación de múltiples factores para determinar la idoneidad o viabilidad de un área o proyecto.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-sky-900 section-title" data-aos="fade-up">
+                Capacidades Analíticas Avanzadas
+            </h2>
 
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-dna text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Modelado y Simulación Espacial</h3>
-                        <p class="text-gray-600 leading-relaxed">Creación de modelos predictivos para escenarios futuros de crecimiento, impacto o distribución.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto" data-aos="fade-up">
 
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-calculator text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis Geoestadístico</h3>
-                        <p class="text-gray-600 leading-relaxed">Aplicación de métodos estadísticos para analizar patrones espaciales y relaciones de datos.</p>
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-sitemap text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis Multicriterio</h3>
+                            <p class="text-gray-600 leading-relaxed">Evaluación de múltiples factores para determinar la idoneidad o viabilidad de un área o proyecto.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-satellite-dish text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Teledetección y Clasificación</h3>
-                        <p class="text-gray-600 leading-relaxed">Extracción de información de imágenes satelitales y aéreas para mapeo de coberturas y cambios.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-project-diagram text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis de Redes y Conectividad</h3>
-                        <p class="text-gray-600 leading-relaxed">Estudio de rutas óptimas, áreas de servicio y conectividad en redes de transporte o servicios.</p>
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-dna text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Modelado y Simulación Espacial</h3>
+                            <p class="text-gray-600 leading-relaxed">Creación de modelos predictivos para escenarios futuros de crecimiento, impacto o distribución.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
-                        <i class="fas fa-server text-2xl"></i>
-                    </div>
-                    <div class="ml-4">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Integración y Big Data Geoespacial</h3>
-                        <p class="text-gray-600 leading-relaxed">Manejo y análisis de grandes volúmenes de datos geográficos para insights complejos.</p>
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-calculator text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis Geoestadístico</h3>
+                            <p class="text-gray-600 leading-relaxed">Aplicación de métodos estadísticos para analizar patrones espaciales y relaciones de datos.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-satellite-dish text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Teledetección y Clasificación</h3>
+                            <p class="text-gray-600 leading-relaxed">Extracción de información de imágenes satelitales y aéreas para mapeo de coberturas y cambios.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-project-diagram text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Análisis de Redes y Conectividad</h3>
+                            <p class="text-gray-600 leading-relaxed">Estudio de rutas óptimas, áreas de servicio y conectividad en redes de transporte o servicios.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-white hover:-translate-y-1">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center">
+                            <i class="fas fa-server text-2xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Integración y Big Data Geoespacial</h3>
+                            <p class="text-gray-600 leading-relaxed">Manejo y análisis de grandes volúmenes de datos geográficos para insights complejos.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <script>
         AOS.init({
@@ -189,10 +199,11 @@
             once: false,
         });
     </script>
-    
+
     <?php include_once '../../inc/footer.php'; ?>
 
 </body>
 
 </body>
+
 </html>

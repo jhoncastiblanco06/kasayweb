@@ -1,4 +1,4 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   // --- MÓDULO 1: CARRUSEL DE SERVICIOS (Personalizado) ---
   const slideContainer = document.querySelector(".slide");
   const carruselSection = document.getElementById("seccion_carrusel");
