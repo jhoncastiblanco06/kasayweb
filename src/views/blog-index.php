@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -15,7 +15,7 @@
 
     <?php include_once '../inc/navbar.php'; ?>
 
-    <section class="relative h-[350px] md:h-[400px] flex items-center justify-center mt-[30px] md:mt-[10px]">
+    <section class="relative h-[350px] md:h-[400px] flex items-center justify-center mt-[30px] md:mt-[0px]">
         <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://blog.esri.es/wp-content/uploads/2016/10/cabecera-eventos.png'); background-attachment: fixed;"></div>
         <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
         <div class="relative z-10 text-center text-white px-4">

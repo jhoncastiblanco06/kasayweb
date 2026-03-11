@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -70,7 +70,6 @@
     </header>
 
     <script src="/assets/js/barradebusqueda.js"></script>
-
 </body>
 
 </html>

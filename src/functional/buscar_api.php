@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Le decimos al navegador que devolveremos datos en formato JSON
 header('Content-Type: application/json; charset=utf-8');
 

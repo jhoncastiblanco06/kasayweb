@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -25,7 +25,7 @@
     include_once '../inc/navbar.php';
     ?>
 
-    <section id="inicio" class="text-white pt-3 md:pt-16 pb-0">
+    <section id="inicio" class="text-white pt-3 md:pt-0 pb-0">
 
         <!-- Sección de video de fondo -->
         <div class="relative w-full h-[30vh] md:h-[50vh] overflow-hidden">

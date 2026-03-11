@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menuBtn.addEventListener("click", (e) => {
       e.stopPropagation(); // Evita que el click se propague
       menu.classList.toggle("hidden");
+      menu.classList.toggle("menu-active"); // AQUÍ ESTABA EL ERROR: Faltaba activar tu animación
     });
 
     // Cerrar menú al hacer click en un enlace
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       link.addEventListener("click", () => {
         if (window.innerWidth < 1024) {
           menu.classList.add("hidden");
+          menu.classList.remove("menu-active"); // Limpiamos la animación
         }
       });
     });
@@ -59,8 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("click", (e) => {
     if (menu && !menu.contains(e.target) && !menuBtn.contains(e.target)) {
       menu.classList.add("hidden");
+      menu.classList.remove("menu-active"); // Limpiamos la animación al hacer click fuera
     }
-    if (searchSuggestions && !searchContainer.contains(e.target)) {
+    if (searchSuggestions && searchContainer && !searchContainer.contains(e.target)) {
       searchSuggestions.classList.add("hidden");
     }
   });

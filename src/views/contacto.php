@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -19,7 +19,7 @@
 
     <section id="contacto" class="pb-7 bg-white">
 
-        <section id="inicio" class="text-white pt-3 pb-0 md:pt-16 md:pb-1">
+        <section id="inicio" class="text-white pt-3 pb-0 md:pt-0 md:pb-0">
             <div class="relative w-full h-[390px] overflow-hidden">
                 <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
                     <source src="/assets/videos/kasay-contacto.mp4" type="video/mp4">
