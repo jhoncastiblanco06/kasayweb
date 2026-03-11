@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -51,7 +51,7 @@
         <section id="inicio" class="text-white">
             <div class="relative w-full h-[500px] lg:h-[550px] overflow-auto">
                 <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                    <source src="/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
+                    <source src="/kasayweb/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
                 </video>
                 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>

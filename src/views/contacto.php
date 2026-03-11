@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
     
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto Kasay Ingeniería</title>
-        <link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
             <section id="inicio" class="text-white pt-3 pb-0 md:pt-16 md:pb-1">
                 <div class="relative w-full h-[390px] overflow-hidden">
                     <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                    <source src="/assets/videos/kasay-contacto.mp4" type="video/mp4">
+                    <source src="/kasayweb/assets/videos/kasay-contacto.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
                     </video>
                     <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
@@ -107,7 +107,7 @@
 
                         <h3 class="text-2xl font-bold text-cyan-600 mb-8 text-center border-b pr-10 pb-4">Envíanos tu solicitud</h3>
 
-                    <form action="../functional/procesar_contacto.php" method="POST">
+                    <form action="/kasayweb/src/functional/procesar_contacto.php" method="POST">
                             
                             <div class="grid sm:grid-cols-2 gap-6 mb-6">
                                 <div>
@@ -219,7 +219,7 @@
             <div class="relative h-[350px] w-full">
                 <div id="map" class="absolute inset-0 z-0"></div>
                 <div class="absolute inset-0 z-10 bg-blue-500/10 pointer-events-none"></div>
-                <script src="../../assets/js/script_contacto.js"></script>
+                <script src="/kasayweb/assets/js/script_contacto.js"></script>
             </div>
         </section>        
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -115,7 +115,7 @@
                     <div class="w-full h-64 bg-gray-200 rounded-md overflow-hidden mb-4">
                          <iframe 
                             class="w-full h-full object-cover image-reveal-on-scroll" 
-                            src="src/functional/visor_digital_twin.php" 
+                            src="/kasayweb/src/functional/visor_digital_twin.php" 
                             title="Visor 3D Digital Twin"
                             frameborder="0">
                         </iframe>
@@ -234,7 +234,7 @@
             <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                 Explore las posibilidades que ofrecen nuestros Visores SIG Web personalizados para su organización.
             </p>
-            <a href="src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
+            <a href="/kasayweb/src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
                 Hablemos de su Proyecto
             </a>
         </div>

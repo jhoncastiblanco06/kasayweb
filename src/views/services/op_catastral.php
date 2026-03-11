@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@
 
     <section id="inicio" class="relative w-full h-screen overflow-hidden text-white">
         <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-            <source src="/assets/videos/servicios/servicios_opcatastral.mp4" type="video/mp4">
+            <source src="/kasayweb/assets/videos/servicios/servicios_opcatastral.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
@@ -85,7 +85,7 @@
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
                 <div data-aos="fade-right">
-                    <img src="/assets/images/paginas_servicios/servicio_opcatastral.jpg" alt="Equipo técnico de Kasay realizando levantamiento catastral en campo" class="rounded-lg shadow-2xl w-full h-auto">
+                    <img src="/kasayweb/assets/images/paginas_servicios/servicio_opcatastral.jpg" alt="Equipo técnico de Kasay realizando levantamiento catastral en campo" class="rounded-lg shadow-2xl w-full h-auto">
                 </div>
                 <div data-aos="fade-left">
                     <h2 class="text-3xl md:text-4xl font-bold text-sky-900 mb-6">Sinergia en el Terreno: Talento y Tecnología</h2>

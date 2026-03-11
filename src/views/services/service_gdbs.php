@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -223,7 +223,7 @@
             <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
                 Hable con nuestros expertos para diseñar una base de datos geográfica que impulse sus proyectos.
             </p>
-            <a href="src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
+            <a href="/kasayweb/src/views/contacto.php" class="bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 text-lg shadow-xl">
                 Contáctenos Ahora
             </a>
         </div>

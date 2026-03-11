@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+﻿document.addEventListener('DOMContentLoaded', function() {
     
     // 1. FUNCIONALIDAD DEL MENÚ RESPONSIVE
     const menuBtn = document.getElementById('menu-btn');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const query = this.value.trim();
             
             if (query.length > 0) {
-                fetch(`/src/functional/buscar_api.php?q=${encodeURIComponent(query)}`)
+                fetch(`/kasayweb/src/functional/buscar_api.php?q=${encodeURIComponent(query)}`)
                     .then(response => response.json())
                     .then(data => {
                         searchSuggestions.innerHTML = '';

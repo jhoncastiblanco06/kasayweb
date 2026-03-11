@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Bases de Datos Geográficas - Kasay Ingeniería</title> <script src="https://cdn.tailwindcss.com"></script> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="icon" href="../../../assets/images/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Bases de Datos Geográficas - Kasay Ingeniería</title> <script src="https://cdn.tailwindcss.com"></script> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> <link rel="icon" href="/kasayweb/assets/images/favicon.ico" type="image/x-icon">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -53,7 +53,7 @@
         <section id="inicio" class="text-white">
             <div class="relative w-full h-[650px] md:h-[550px] overflow-auto">
                 <video autoplay muted="muted" loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                    <source src="/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
+                    <source src="/kasayweb/assets/videos/gdbs/Bases_Datos.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
                 </video>
                 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
@@ -258,31 +258,31 @@
                     Tecnologías Que Dominamos </h2>
                 <div class="max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-8 md:gap-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Postgresql.svg" alt="PostgreSQL Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Postgresql.svg" alt="PostgreSQL Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">PostgreSQL + PostGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Oracle.png" alt="Oracle Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Oracle.png" alt="Oracle Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Oracle Spatial</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Sql.webp" alt="SQL Server Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Sql.webp" alt="SQL Server Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">SQL Server Spatial</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Qgis.webp" alt="QGIS Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Qgis.webp" alt="QGIS Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">QGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Arcgis.webp" alt="ArcGIS Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Arcgis.webp" alt="ArcGIS Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">ArcGIS</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Global_Mapper.jpg" alt="Mapper Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Global_Mapper.jpg" alt="Mapper Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Global Mapper</p>
                     </div>
                     <div class="flex flex-col items-center text-center p-4 filter grayscale-[0.8] hover:grayscale-0 transition-all duration-300">
-                        <img src="/assets/images/gdbs/Autodesk.webp" alt="Autodesk Logo" class="h-20 mb-3">
+                        <img src="/kasayweb/assets/images/gdbs/Autodesk.webp" alt="Autodesk Logo" class="h-20 mb-3">
                         <p class="font-semibold text-gray-700">Autodesk</p>
                     </div>
                 </div>
